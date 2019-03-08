@@ -1,4 +1,4 @@
-from linkedlist import LinkedList
+from data_structures.linkedlist.linkedlist import LinkedList
 
 
 # this I start with the head node
