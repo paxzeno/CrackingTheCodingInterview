@@ -53,9 +53,12 @@ class LinkedList:
         return ll
 
     def print_linked_list(self):
+        print(self.print_ll())
+
+    def print_ll(self):
         node = self
         linked_list_string = ''
         while node is not None:
             linked_list_string += '[' + str(node.name()) + ',' + str(node.value()) + '] -> '
             node = node.next()
-        print(linked_list_string + 'None')
+        return linked_list_string + 'None'
